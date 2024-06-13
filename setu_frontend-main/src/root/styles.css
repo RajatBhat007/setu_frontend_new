@@ -1,0 +1,100 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-y:auto;
+  background-color: #F9E4B7;
+}
+
+.layout-body {
+  width: 100%;
+  min-height: 100vh;
+  max-height:max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/background.png') !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  z-index: 0;
+
+}
+
+#lock-btn {
+  position: absolute;
+  left: 4%;
+  top: 3%;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  z-index: 1000;
+  
+}
+#lock-btn span{
+ font-size: 130%;
+}
+
+#lock-btn-3 {
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+/* @media screen and (min-width: 100px) and (max-width: 1025px) and (orientation: portrait) {
+
+
+ body {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    overflow: auto ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .layout-body {
+
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+    width: max-content;
+    min-width: 100vh;
+    height: max-content;
+    min-height: 100vw;
+    position: absolute;
+bottom: 100%;
+left: 0;
+  }
+} */
+
+
+/* @media screen and (min-width: 100px) and (max-width: 1025px) and (orientation: landscape) {
+
+
+  body,  html {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .layout-body {
+    width: max-content;
+    min-width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+
+  }
+
+} */

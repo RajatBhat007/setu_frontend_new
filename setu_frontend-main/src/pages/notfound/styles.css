@@ -1,0 +1,34 @@
+.component-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notfound-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.notfound-container a{
+    width:100%;
+    max-width: 300px;
+    height: 55px !important ;
+    border-radius: 0;
+    background-color: #44301E;
+    color: #FFDBAA;
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notfound-container a:hover{
+    border-radius: 0;
+    background-color: #44301E !important;
+    color: #FFDBAA !important;
+}

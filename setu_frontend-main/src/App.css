@@ -1,0 +1,160 @@
+#root {
+  height: 100%;
+}
+
+.ant-layout-content {
+  min-height: 100% !important;
+}
+
+.ant-layout.layout-body {
+  background: none;
+}
+
+.ant-layout-header {
+  padding: 0 30px !important;
+}
+
+.full-view-margin {
+  margin-left: -50px !important;
+  margin-right: -50px !important;
+}
+
+.full-view-margin-accordian {
+  margin-left: -65px !important;
+  margin-right: -65px !important;
+}
+
+.carousel-indicator {
+  height: 12px;
+  width: 12px;
+  border-radius: 100px;
+}
+
+.GradientBarCommon {
+  width: 150px;
+  height: 8px;
+  background: linear-gradient(to right, #23D9B7, #A3F7BF);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+@media (max-width:575px) {
+  /* .ant-layout-content {
+    padding: 10px !important;
+  } */
+
+  .full-view-margin {
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+  }
+
+  .full-view-margin-accordian {
+    margin-left: -25px !important;
+    margin-right: -25px !important;
+  }
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.scroll-bar-universal {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
+  z-index: 100;
+}
+
+/* Custom Scrollbar Styles */
+
+/* width */
+.scroll-bar-universal::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.scroll-bar-universal::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.scroll-bar-universal::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll-bar-universal::-webkit-scrollbar-thumb:hover {
+  background: darkgrey;
+}
+
+/* For Firefox */
+.scroll-bar-universal {
+  scrollbar-width: thin;
+  scrollbar-color: grey darkgrey;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgrey; 
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

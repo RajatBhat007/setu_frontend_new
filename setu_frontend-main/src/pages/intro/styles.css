@@ -1,0 +1,1982 @@
+.intro-parent {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    /* margin-left: 120px; */
+    /* padding: 0px 120px; */
+    position: relative;
+}
+
+.btn-img-settings {
+    width: 100%;
+    cursor: pointer;
+}
+.btn-img {
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+}
+
+.btn-img-skip {
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+}
+
+.magnus-1 {
+    width: 19%;
+    position: absolute;
+    bottom: 5%;
+    left: 12%;
+}
+
+.magnus-2 {
+    width: 39%;
+    position: absolute;
+    bottom: 3%;
+}
+.magnus-3 {
+    width: 23%;
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+}
+.magnus-4 {
+    width: 38%;
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+}
+.magnus-5 {
+    width: 32%;
+    position: absolute;
+    left: 22%;
+    bottom: 5%;
+}
+.magnus-6 {
+    width: 38%;
+    position: absolute;
+    right: 22%;
+    bottom: 5%;
+}
+.magnus-7 {
+    width: 12%;
+    position: absolute;
+    bottom: 6%;
+    left: 18%;
+}
+.magnus-8 {
+    width: 26%;
+    position: absolute;
+    right: 30%;
+    bottom: 4%;
+}
+.magnus-8-1 {
+    width: 25%;
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+}
+.magnus-9 {
+    width: 28%;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.magnus-10 {
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.magnus-10-1 {
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+.badges-1 {
+    width: 11%;
+    position: absolute;
+    bottom: 5%;
+    left: 9%;
+}
+.badges-2 {
+    width: 11%;
+    position: absolute;
+    bottom: 7%;
+    right: 10%;
+}
+
+.magnus-img {
+    width: 100%;
+}
+
+.text-1 {
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    right: 350px;
+}
+.text-1-1 {
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    right: 15%;
+}
+
+.text-2 {
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 21%;
+}
+
+.text-3 {
+    width: 44%;
+    position: absolute;
+    top: 10%;
+    right: 12%;
+}
+
+.text-4 {
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+.text-5 {
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.text-6 {
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    right: 8%;
+}
+.text-7 {
+    width: 25%;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.text-8 {
+    width: 20%;
+    position: absolute;
+    top: 60px;
+    left: 72px;
+}
+.text-9 {
+    width: 40%;
+    position: absolute;
+    top: 24%;
+    left: 30%;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.text-10 {
+    width: 35%;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+.text-11 {
+    width: 35%;
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+.text-12 {
+    width: 25%;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+
+.text-left {
+    position: absolute;
+    width: 20%;
+    left: 6%;
+    top: 10%;
+}
+
+.text-img {
+    width: 100%;
+}
+
+.game-board1 {
+    width: 60%;
+    position: absolute;
+    right: 8%;
+    bottom: 14%;
+}
+.crossBoardImg {
+    width: 40%;
+    position: absolute;
+    right: 14%;
+    bottom: 10%;
+}
+
+.tokens-card {
+    width: 50%;
+    display: grid;
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+    grid-template-columns: repeat(2, 1fr);
+}
+.valueBuddies {
+    width: 33%;
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+}
+.gate1 {
+    width: 80%;
+    position: absolute;
+    bottom: 6%;
+    left: 10%;
+}
+
+.bg-1-parent {
+    position: relative;
+    width: 90%;
+    bottom: 0%;
+    left: 5%;
+}
+.bg-2-parent{
+    position: absolute;
+    width: 100%;
+    top: 130px;
+    left: 450px;
+}
+
+.bg-1{
+    width: 100%;
+    height: 90dvh;
+}
+
+.client-1 {
+    position: absolute;
+    width: 14%;
+    right: 12%;
+    bottom: 3%;
+}
+.client-2 {
+    position: absolute;
+    width: 14%;
+    right: 12%;
+    bottom: 6%;
+}
+.card-1 {
+    position: absolute;
+    top: 37%;
+    left: 41%;
+    width: 20%;
+}
+.card-2 {
+    position: absolute;
+    top: 47%;
+    left: 41%;
+    width: 20%;
+}
+.card-3 {
+    position: absolute;
+    left: 41%;
+    width: 20%;
+    bottom: 35%;
+}
+.card-4 {
+    position: absolute;
+    bottom: 25%;
+    left: 41%;
+    width: 20%;
+}
+.learning-card {
+    width: 56%;
+    position: absolute;
+    bottom: 13%;
+    right: 150px;
+}
+.letsPlayFrame{
+    width: 50%;
+}
+
+.letsPlay {
+    position: absolute;
+    width: 40%;
+    left: 41%;
+    top: 35%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.letsPlay-intro {
+    position: absolute;
+    width: 44%;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bolder;
+    left: 28%;
+    align-items: center;
+    top: 10%;
+    color:#FFFFFF;
+}
+.parent-btns {
+    width: 8%;
+    position: relative;
+   
+    height: 100%;
+}
+.parent-skip {
+    width: 9%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+}
+.tokens-parent{
+    position: absolute;
+    top: 46%;
+    cursor: pointer;
+}
+
+.parent-qa{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.modal-img{
+    width: 60%;
+}
+.modal-img-1{
+    width: 60%;
+}
+.modal-close {
+    width: 60%;
+    position: absolute;
+    top: 7%;
+    left: 16%;
+}
+.parent-btn-img{
+    width: 100%;
+    padding: 10px 100px 0px 60px;
+    bottom: 0px;
+    position: absolute;
+}
+
+@media screen and (max-width:1600px ) {
+    .magnus-1 {
+        width: 19%;
+        position: absolute;
+        left: 10%;
+    }
+    .text-1 {
+        right: 20%;
+    }   
+    .magnus-2 {
+        width: 38%;
+        position: absolute;
+       
+    }
+    .text-1-1{
+        left: 33%;
+    }
+
+    .parent-btns {
+        width: 4%;
+    }
+    .parent-skip {
+        width: 11%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .magnus-3 {
+        width: 24%;
+        position: absolute;
+        left: 6%;
+    }
+
+.magnus-4 {
+    width: 37%;
+    position: absolute;
+   
+    right: 60px;
+}
+
+.magnus-5 {
+    width: 33%;
+    position: absolute;
+    left: 350px;
+}
+
+.magnus-6 {
+    width: 37%;
+  
+    right: 350px;
+   
+}
+.magnus-7 {
+    width: 11%;
+  
+}
+.magnus-8 {
+    width: 25%;
+   
+}
+.magnus-8-1{
+    width: 24%;
+   
+    right: 25%;
+}
+.magnus-9 {
+    width: 28%;
+    position: absolute;
+    left: 20px;
+   
+}
+.magnus-10 {
+    width: 32%;
+    position: absolute;
+    left: 12%;
+    
+}
+.magnus-10-1 {
+    width: 26%;
+    position: absolute;
+    left: 12%;
+    
+}
+
+.badges-1 {
+    width: 11%;
+    
+    left: 150px;
+}
+
+.badges-2 {
+    width: 11%;
+}
+
+.magnus-img {
+    width: 100%;
+}
+
+
+
+.text-2 {
+    top: 7%;
+    width: 40%;
+    left: 23%;
+}
+
+.text-3 {
+    top: 12%;
+    width: 38%;
+}
+
+.text-4 {
+    top: 10%;
+    left: 8%;
+    width: 35%;
+}
+.text-5 {
+    width: 23%;
+}
+    .text-6 {
+        width: 20%;
+        position: absolute;
+        top: 10%;
+        right: 9%;
+    }
+    .text-7 {
+        left: 30%;
+    }
+.text-8 {
+    width: 20%;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+.text-9 {
+        width: 40%;
+        position: absolute;
+        top: 23%;
+        left: 30%;
+        font-size: 28px;
+    }
+    .text-10 {
+        width: 26%;
+        position: absolute;
+        top: 14%;
+        left: 39%;
+    }
+    .text-11 {
+        width: 28%;
+        position: absolute;
+        left: 36%;
+        top: 11%;
+    }
+    .text-12 {
+        width: 27%;
+        position: absolute;
+        top: 10%;
+        left: 8%;
+    }
+
+.text-left {
+    position: absolute;
+    width: 18%;
+    left: 6%;
+    top: 10%;
+}
+
+.text-img {
+    width: 100%;
+}
+
+.game-board1 {
+    width: 60%;
+    position: absolute;
+    right: 9%;
+    bottom: 10%;
+}
+
+.crossBoardImg {
+    
+}
+
+.valueBuddies{
+    left: 100px;
+    width: 33%;
+}
+.gate1{
+    width: 75%;
+    left: 200px;
+}
+
+    .bg-1-parent {
+        position: absolute;
+        width: 90%;
+        top: 9%;
+        left: 5%;
+    }
+.bg-2-parent{
+    position: absolute;
+    width: 56%;
+    top: 110px;
+    left: 365px;
+}
+
+.bg-1{
+    width: 100%;
+    height: 85dvh;
+}
+
+.client-1{
+    right: 180px;
+    
+}
+.client-2 {
+    right: 20%;
+    width: 14%;
+    bottom: 6%;
+}
+.card-1 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 20%;
+}
+.card-2 {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    width: 20%;
+}
+.card-3 {
+    position: absolute;
+    bottom: 36%;
+    left: 40%;
+    width: 20%;
+}
+.card-4 {
+    position: absolute;
+    bottom: 26%;
+    left: 40%;
+    width: 20%;
+}
+.learning-card{
+    width: 50%;
+    position: absolute;
+    right: 120px;
+}
+.letsPlayFrame{
+    width: 50%;
+}
+.letsPlay-intro {
+    position: absolute;
+    width: 44%;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bolder;
+    left: 28%;
+    align-items: center;
+    top: 10%;
+}
+
+.letsPlayResume{
+    position: absolute;
+    width:100%;
+}
+.done-btn {
+    position: absolute;
+
+    width: 100%;
+    top: 90%;
+  
+}
+.token-resize {
+    width: 4.6%;
+}
+.options-text {
+    position: absolute;
+    display: flex;
+    translate: 0px -65px;
+    width: 100%;
+    height: 100%;
+}
+
+.left-panel-title {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    left: 0px;
+    top: 10%;
+}
+.letsPlay {
+    left: 42.5%;
+    top: 38%;
+    font-size: 32px;
+}
+.question-text{
+    font-size: 18px;
+}
+
+  .option-text{
+    font-size: 11px;
+  }
+   .left-panel-intros {
+       height:60vh;
+    }
+}
+@media screen and (max-width:1280px ) {
+    .parent-btns {
+        /* width: 6%; */
+        position: relative;
+        bottom: 4px;
+    }
+    .parent-skip {
+        width: 10%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .magnus-1 {
+        width: 20%;
+        
+    }
+    .text-1 {
+        width: 40%;
+        right: 28%;
+        top: 10%;
+    }
+    .magnus-2 {
+        width: 38%;
+        position: absolute;
+       
+    }
+    .text-left {
+        position: absolute;
+        width: 16%;
+        left: 80px;
+        top: 9%;
+    }
+    .text-2 {
+        top: 8%;
+        left: 22%;
+        width: 40%;
+    }
+        .magnus-3 {
+        width: 28%;
+        position: absolute;
+        left: 3%;
+    }
+    .tokens-card {
+        bottom: 8%;
+        left: 14%;
+    }
+    .magnus-4 {
+        width: 38%;
+        position: absolute;
+       
+        right: 2%;
+    }
+
+    .magnus-5 {
+        width: 34%;
+        position: absolute;
+        left: 25%;
+       
+    }
+    .badges-1 {
+        width: 11%;
+       
+        left: 10%;
+    }
+    .text-3 {
+        top: 12%;
+        right: 10%;
+        width: 38%;
+    }
+    .text-4 {
+        top: 10%;
+        left: 6%;
+        width: 35%;
+    }
+       .magnus-6 {
+        width: 38%;
+        right: 26%;
+    }
+
+    .badges-2 {
+        width: 11%;
+        right: 15%;
+       
+    }
+    .text-5 {
+        width: 20%;
+        top: 10%;
+        left: 8%;
+    }
+    .magnus-7 {
+        width: 13%;
+        left: 15%;
+    }
+      .crossBoardImg {
+        width: 44%;
+        right: 16%;
+        bottom: 8%;
+    }
+    .magnus-8 {
+        width: 26%;
+        right: 30%;
+    }
+    .valueBuddies {
+        left: 8%;
+        width: 32%;
+      
+    }
+    .gate1 {
+        width: 77%;
+        left: 10%;
+        top: 5%;
+    }
+    .text-7 {
+        left: 32%;
+    }
+    .magnus-8-1 {
+        width: 24%;
+       
+        right: 24%;
+    }
+    .bg-2-parent {
+        position: absolute;
+        width: 59%;
+        top: 18%;
+        left: 21%;
+    }
+    .text-8 {
+        width: 18%;
+        position: absolute;
+        top: 8%;
+        left: 5%;
+    }
+    .text-9 {
+        width: 40%;
+        position: absolute;
+        top: 22%;
+        left: 31%;
+        font-size: 22px;
+    }
+    .magnus-9 {
+        width: 30%;
+        position: absolute;
+        left: 20px;
+       
+    }
+    .client-1 {
+        right: 13%;
+        bottom: 32px;
+        width: 14.5%;
+    }
+    .card-1 {
+        position: absolute;
+        top: 35%;
+        left: 41%;
+        width: 20%;
+    }
+    .card-2 {
+        position: absolute;
+        top: 46%;
+        left: 41%;
+        width: 20%;
+    }
+    .card-3 {
+        position: absolute;
+        top: 57%;
+        left: 41%;
+        width: 20%;
+    }
+    .card-4 {
+        position: absolute;
+        top: 68%;
+        left: 41%;
+        width: 20%;
+    }
+    .text-10 {
+        width: 30%;
+        position: absolute;
+        top: 14%;
+        left: 36%;
+    }
+    .bg-1-parent {
+        position: absolute;
+        width: 100%;
+        top: 8%;
+        left: 0px;
+    }
+    .magnus-10 {
+        width: 30%;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+    }
+    .magnus-10-1 {
+        width: 28%;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+    }
+    .text-11 {
+        width: 30%;
+        position: absolute;
+        left: 31%;
+    }
+        .letsPlay {
+        width: 100%;
+        left: 40%;
+        align-items: center;
+        top: 35%;
+    }
+   
+    .bad-gate-text-bg {
+        position: absolute;
+        top: 19%;
+    }
+    .bad-gate-text{
+        font-size: 18px;
+        top: 23%;
+      }
+      .options-text{
+        translate: 0px -50px;
+      }
+    
+
+      .left-panel-title {
+        position: absolute;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        width: 100%;
+        left: 0px;
+        top: 10%;
+    }
+    .tokens-parent {
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+}
+.question-text{
+    font-size: 18px;
+}
+
+  .option-text{
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width:1024px ) {
+    .bad-gate-text-bg{
+        position: absolute; 
+        top: 20% ;
+        }
+    .parent-btns {
+        width: 7%;
+        padding: 10px 5px 4px 8px;
+    }
+    .parent-skip {
+        width: 11%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .parent-btn-img {
+        width: 100%;
+        padding: 10px 100px 0px 60px;
+        bottom: -12px;
+        position: absolute;
+    }
+    .magnus-1 {
+        width: 25%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .text-1 {
+        right: 14%;
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+    .magnus-2 {
+        width: 49%;
+        position: absolute;
+        bottom: 3%;
+    }
+    .magnus-3 {
+        width: 36%;
+        position: absolute;
+        left: 0%;
+    }
+    .game-board1 {
+        width: 58%;
+        position: absolute;
+        right: 6%;
+        bottom: 14%;
+    }
+    .text-1-1{
+        left: 40%;
+    }
+    .magnus-4 {
+        width: 30%;
+        position: absolute;
+       
+        right: 60px;
+    }
+    .text-2 {
+        width: 27%;
+        left: 31%;
+        top: 30%;
+    }
+    .tokens-card{
+        width: 45%;
+        left: 20%;
+    }
+    .badges-1 {
+        width: 10%;
+        left: 10%;
+    }
+    .magnus-5 {
+        width: 30%;
+        position: absolute;
+        left: 25%;
+    }
+    .text-3 {
+        top: 18%;
+        width: 35%;
+    }
+    .badges-2 {
+        width: 10%;
+        
+        right: 10%;
+    }
+    .magnus-6 {
+        width: 33%;
+        right: 25%;
+    }
+    .text-4 {
+        top: 25%;
+        left: 10%;
+        width: 35%;
+    }
+    .crossBoardImg {
+       
+        width: 38%;
+        right: 10%;
+    }
+    .text-5 {
+        width: 20%;
+        top: 16%;
+        left: 10%;
+    }
+    .magnus-7 {
+        width: 14%;
+        left: 20%;
+    }
+    .magnus-8 {
+        width: 24%;
+        
+        right: 29%;
+        height: 70%;
+    }
+    .text-6 {
+        width: 20%;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+    }
+    .valueBuddies {
+        left: 8%;
+        width: 32%;
+        /* top: 10%; */
+        display: flex;
+        align-items: center;
+        height: 75%;
+    }
+    .gate1 {
+        width: 90%;
+        left: 5%;
+        top: 7%;
+    }
+    .magnus-8-1 {
+        width: 19%;
+        right: 25%;
+        bottom: 5%;
+        display: flex;
+        align-items: center;
+    }
+    .text-7 {
+        left: 25%;
+    }
+    .bg-1-parent {
+        position: absolute;
+        width: 100vw;
+        top: 8%;
+        left: 0%;
+        height: 90vh;
+    }
+    .bg-2-parent {
+        position: absolute;
+        width: 60vw;
+        top: 14%;
+        left: 24%;
+    }
+
+    .text-9 {
+        width: 40%;
+        position: absolute;
+        top: 24%;
+        left: 33%;
+        font-size: 18px;
+    }
+    .client-1 {
+        right: 10%;
+        bottom: 10%;
+    }
+    .magnus-9 {
+        width: 28%;
+        position: absolute;
+        left: 3%;
+        bottom: 6%;
+    }
+    .text-8 {
+        width: 15%;
+        position: absolute;
+        top: 14%;
+        left: 6%;
+    }
+    .card-1 {
+        position: absolute;
+        top: 29%;
+        left: 40%;
+        width: 25%;
+    }
+    .card-2 {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        width: 25%;
+    }
+    .card-3 {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        width: 25%;
+    }
+    .card-4 {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        width: 25%;
+    }
+    .text-10 {
+        width: 23%;
+        position: absolute;
+        top: 22%;
+        left: 44%;
+    }
+    
+    .client-2 {
+        right: 16%;
+        bottom: 7%;
+        width: 12%;
+    }
+    .text-11 {
+        width: 20%;
+        position: absolute;
+        left: 36%;
+    }
+    .learning-card {
+        width: 45%;
+        position: absolute;
+        top: 23%;
+        right: 8%;
+    }
+    .magnus-10 {
+        width: 25%;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+    }
+    .magnus-10-1 {
+        width: 25%;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+    }
+
+  
+      .options-text {
+        translate: 0px -45px;
+    }
+    .token-bg {
+        width: 31%;
+        position: absolute;
+        top: 46%;
+    }
+    .letsPlayFrame {
+        width: 50%;
+        margin-top: -20px;
+    }
+    .letsPlay {
+        width: 100%;
+        left: 38%;
+        top: 35%;
+    }
+    .token-resize {
+        width: 6%;
+        padding: 10px;
+        font-size: 12px !important;
+    }
+    .token-resize-1{
+        width: 10%;
+        padding: 10px;
+        font-size: 12px !important;
+        }
+    .modal-img{
+        width: 60%;
+    }
+    .modal-close {
+        width: 60%;
+        position: absolute;
+        top: 7%;
+        left: 16%;
+    }
+    .left-panel-title {
+       
+        font-size: 18px;
+        
+    }
+    .value-buddies-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 10px;
+        padding: 10px;
+        max-height: 70%;
+    }
+    .question-text {
+        font-size: 13px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .congo-text-1{
+        font-size: 25px;
+        font-weight: bolder;
+      }
+      
+      .congo-text-2{
+        font-size: 16px;
+        font-weight: 600;
+      }
+    .fallen-text-1{
+        font-size: 18px;
+      }
+      
+      .fallen-text-2{
+        font-size: 12px;
+      }
+    .magnus-1 {
+        width: 17%;
+        bottom: 7%;
+    }
+    .text-1 {
+       
+        right: 16%;
+        top: 10%;
+      
+    }   
+    .magnus-2 {
+        width: 36%;
+        position: absolute;
+    }
+    .magnus-3 {
+        width: 25%;
+        position: absolute;
+        left: 6%;
+    }
+    .text-1-1{
+        left: 40%;
+    }
+    .game-board1 {
+        width: 58%;
+        position: absolute;
+        right: 9%;
+        bottom: 9%;
+    }
+    .parent-btn-img {
+        width: 100%;
+        padding: 0px 50px;
+        bottom: -10px;
+        position: absolute;
+    }
+    .parent-btns {
+        width: 6%;
+    }
+    .parent-skip{
+        width: 11%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+   
+    .text-1 {
+        right: 20%;
+    }
+  
+    .text-1-1 {
+        left: 36%;
+        top: 8%;
+    }
+    .magnus-4 {
+        width: 36%;
+        position: absolute;
+        right: 60px;
+    }
+    .text-2 {
+        width: 33%;
+        top: 8%;
+        left: 28%;
+    }
+
+    .tokens-card {
+        width: 50%;
+        left: 16%;
+    }
+    .badges-1 {
+        width: 10%;
+       
+        left: 10%;
+    }
+    .magnus-5 {
+        width: 32%;
+        position: absolute;
+        left: 25%;
+    }
+    .text-3 {
+        top: 10%;
+        width: 35%;
+    }
+    .badges-2 {
+        width: 10%;
+       
+        right: 10%;
+    }
+    .magnus-6 {
+        width: 35%;
+        right: 23%;
+    }
+    .text-4 {
+        top: 10%;
+        left: 10%;
+        width: 35%;
+    }
+    .crossBoardImg {
+        width: 40%;
+        right: 12%;
+    }
+    .text-5 {
+        width: 18%;
+        top: 8%;
+        left: 15%;
+    }
+    .magnus-7 {
+        width: 12%;
+        left: 20%;
+       
+    }
+    .magnus-8 {
+        width: 24%;
+        right: 32%;
+        bottom: 25%;
+    }
+    .text-6 {
+        width: 20%;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+    }
+    .valueBuddies {
+        left: 10%;
+        width: 30%;
+        bottom: 12%;
+    }
+    .gate1 {
+        width: 73%;
+        left: 13%;
+        top: 7%;
+    }
+    .magnus-8-1 {
+        width: 23%;
+        right: 27%;
+        bottom: 5%;
+    }
+    .text-7 {
+        left: 30%;
+    }
+    .bg-1-parent {
+        position: absolute;
+        width: 100vw;
+        top: 8%;
+        left: 0%;
+        height: 90vh;
+    }
+    .bg-2-parent {
+        position: absolute;
+        width: 55vw;
+        top: 14%;
+        left: 24%;
+    }
+
+    .text-9 {
+        width: 40%;
+        position: absolute;
+        top: 23%;
+        left: 33%;
+        font-size: 16px;
+    }
+    .client-1 {
+        right: 10%;
+        bottom: 10%;
+        width: 13%;
+    }
+    .magnus-9 {
+        width: 28%;
+        position: absolute;
+        left: 3%;
+        bottom: 6%;
+    }
+    .text-8 {
+        width: 17%;
+        position: absolute;
+        top: 5%;
+        left: 8%;
+    }
+    .card-1 {
+        position: absolute;
+        top: 34%;
+        left: 42%;
+        width: 20%;
+    }
+    .card-2 {
+        position: absolute;
+        top: 45%;
+        left: 42%;
+        width: 20%;
+    }
+    .card-3 {
+        position: absolute;
+        top: 56%;
+        left: 42%;
+        width: 20%;
+    }
+    .card-4 {
+        position: absolute;
+        top: 67%;
+        left: 42%;
+        width: 20%;
+    }
+    .text-10 {
+        width: 26%;
+        position: absolute;
+        top: 16%;
+        left: 40%;
+    }
+    
+    .client-2 {
+        right: 16%;
+        bottom: 7%;
+        width: 14%;
+    }
+    .text-11 {
+        width: 24%;
+        position: absolute;
+        left: 39%;
+    }
+    .learning-card {
+        width: 45%;
+        position: absolute;
+        top: 23%;
+        right: 8%;
+    }
+    .magnus-10 {
+        width: 30%;
+        position: absolute;
+        left: 15%;
+        bottom: 5%;
+    }
+    .magnus-10-1 {
+        width: 25%;
+        position: absolute;
+        left: 15%;
+        bottom: 5%;
+    }
+    .left-panel-intros {
+       height:20vh;
+    }
+    .text-left {
+        position: absolute;
+        width: 16%;
+        left: 80px;
+        top: 6%;
+    }
+    .bottom-part-game{
+        margin-top: 42px;
+      }
+    
+    .token-bg {
+        width: 28%;
+        position: absolute;
+        top: 46%;
+    }
+    .token-resize {
+        width: 6%;
+     
+        font-size: 9px !important;
+    }
+    
+    .tokens-parent{
+        top:45%;
+    }
+    .letsPlay {
+        left: 40%;
+        font-size: 30px;
+        top: 32%;
+    }
+    .options-text {
+        translate: 0px -40px;
+        font-size: 10px;
+    }
+    .done-btn {
+        top: 86%;
+    }
+    .modal-img{
+        width: 30%;
+    }
+    .modal-text{    
+        font-size: 12px !important;
+        left: 0%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        top: 13%;
+        
+    }
+    .modal-close {
+        width: 60%;
+        position: absolute;
+        top: 10%;
+        left: 3%;
+    }
+    .left-panel-title {
+       
+        font-size: 14px;
+        
+    }
+    .token-resize-1 {
+        width: 12%;
+        padding: 10px;
+        font-size: 5px !important;
+    }
+    .value-buddies-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+        padding: 10px;
+        max-height: 90%;
+    }
+    .option-text{
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (max-width:740px) {
+    .congo-text-1{
+        font-size: 25px;
+        font-weight: bolder;
+      }
+      
+      .congo-text-2{
+        font-size: 16px;
+        font-weight: 600;
+      }
+     .parent-btn-img {
+        width: 100%;
+        padding: 0px 50px;
+        bottom: -7px;
+        position: absolute;
+    }
+    .token-bg {
+        width: 30%;
+        position: absolute;
+        top: 44%;
+    }
+    .token-resize {
+        width: 6%;
+        padding: 0px 6px;
+        font-size: 10px !important;
+    }
+   
+    .tokens-parent {
+        position: absolute;
+        top: 45%;
+        cursor: pointer;
+    }
+    
+    .options-text {
+        translate: 0px -40px;
+        font-size: 10px;
+    }
+    .modal-img{
+        width: 40%;
+    }
+    .modal-text{    
+        font-size: 12px !important;
+        left: 1%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        top: 13%;
+        
+    }
+    .modal-close {
+        width: 40%;
+        position: absolute;
+        top: 10%;
+        left: 27%;
+    }
+    .left-panel-title {
+       
+        font-size: 14px;
+        
+    }
+    .token-resize-1 {
+        width: 13%;
+        padding: 10px;
+        font-size: 6px !important;
+    }
+      .magnus-1 {
+        width: 19%;
+        display: flex;
+        align-items: flex-end;
+        bottom: 8%;
+    }
+        .text-1-1 {
+        left: 39%;
+        top: 9%;
+    }
+        .magnus-3 {
+        width: 26%;
+        position: absolute;
+        left: 7%;
+    }
+        .game-board1 {
+        width: 57%;
+        position: absolute;
+        right: 9%;
+        bottom: 14%;
+    }
+        .text-2 {
+        width: 35%;
+        left: 23%;
+        top: 10%;
+    }
+        .tokens-card {
+        width: 50%;
+        left: 14%;
+    }
+        .magnus-4 {
+        width: 38%;
+        position: absolute;
+        right: 6%;
+    }
+        .badges-1 {
+        width: 10%;
+        left: 10%;
+        bottom: 10%;
+    }
+        .magnus-5 {
+        width: 34%;
+        position: absolute;
+        left: 25%;
+    }
+        .text-3 {
+        top: 11%;
+        width: 35%;
+        right: 12%;
+    }
+    .text-4 {
+        top: 10%;
+        left: 10%;
+        width: 35%;
+    }
+        .magnus-6 {
+        width: 37%;
+        right: 25%;
+    }
+        .badges-2 {
+        width: 10%;
+        right: 13%;
+        bottom: 10%;
+    }
+        .text-5 {
+        width: 18%;
+        top: 5%;
+        left: 10%;
+    }
+        .crossBoardImg {
+        width: 41%;
+        right: 14%;
+        bottom: 10%;
+    }
+        .magnus-7 {
+        width: 14%;
+        left: 16%;
+    }
+        .magnus-8 {
+        width: 25%;
+        right: 31%;
+    }
+        .valueBuddies {
+        left: 8%;
+        width: 33%;
+        display: flex;
+        align-items: center;
+        bottom: 10%;
+    }
+        .magnus-8-1 {
+        width: 24%;
+        right: 25%;
+        bottom: 5%;
+        display: flex;
+        align-items: center;
+    }
+        .text-7 {
+        left: 30%;
+    }
+        .text-9 {
+        width: 40%;
+        position: absolute;
+        top: 24%;
+        left: 33%;
+        font-size: 12px;
+    }
+    .card-1 {
+        position: absolute;
+        top: 31%;
+        left: 40%;
+        width: 25%;
+    }
+        .card-2 {
+        position: absolute;
+        top: 43%;
+        left: 40%;
+        width: 25%;
+    }
+        .card-3 {
+        position: absolute;
+        top: 55%;
+        left: 40%;
+        width: 25%;
+    }
+        .card-4 {
+        position: absolute;
+        top: 67%;
+        left: 40%;
+        width: 25%;
+    }
+        .client-1 {
+        right: 10%;
+        bottom: 10%;
+        width: 13%;
+    }
+        .magnus-9 {
+        width: 28%;
+        position: absolute;
+        left: 3%;
+        bottom: 6%;
+    }
+        .text-10 {
+        width: 28%;
+        position: absolute;
+        top: 18%;
+        left: 39%;
+    }
+        .client-2 {
+        right: 16%;
+        bottom: 7%;
+        width: 14%;
+    }
+        .magnus-10 {
+        width: 31%;
+        position: absolute;
+        left: 12%;
+        bottom: 5%;
+    }
+    .let-text{
+        font-size: 35px;
+        font-weight: bold;
+      }
+    
+      .play-btn{
+        width: 30%;
+      }
+      
+      .play-btn .ant-btn-default{
+      
+        width: 20%;
+        
+        font-size: 15px;
+        height:25px;
+      }
+      .select-player-text {
+        font-size: 30px;
+    }
+    .select-player-ls{
+        width: 40%;
+        font-size: 12;
+        font-weight: 550;
+      }
+
+      .letsPlay {
+        width: 100%;
+        left: 37%;
+        top: 30%;
+        font-size: 30px;
+    }
+    .value-buddies-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 10px;
+        padding: 20px 10px;
+        max-height: 90%;
+    }
+      .option-text{
+        font-size: 8px;
+      }
+}
+
+
+@media screen and (max-width:690px) {
+    .options-text {
+        translate: 0px -32px;
+        font-size: 10px;
+    }
+    .congo-text-1{
+        font-size: 20px;
+        font-weight: bolder;
+      }
+      
+      .congo-text-2{
+        font-size: 14px;
+        font-weight: 600;
+      }
+    .fallen-text-1{
+        font-size: 16px;
+      }
+      
+      .fallen-text-2{
+        font-size: 10px;
+      }
+    .magnus-1 {
+        width: 22%;
+        display: flex;
+        align-items: flex-end;
+        bottom: 7%;
+    }
+    .text-1 {
+        right: 18%;
+        height: 85%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .magnus-2 {
+        width: 45%;
+    }
+    .text-1-1 {
+        left: 36%;
+        top: 8%;
+    }
+    .magnus-3 {
+        width: 32%;
+        position: absolute;
+        left: 4%;
+    }
+    .magnus-4 {
+        width: 33%;
+        right: 5%;
+        top: 23%;
+    }
+    .text-5 {
+        width: 20%;
+        top: 12%;
+        left: 10%;
+    }
+    .magnus-8 {
+        width: 26%;
+        right: 32%;
+        height: 70%;
+        bottom: 15%;
+    }
+    .magnus-8-1 {
+        width: 28%;
+        right: 23%;
+        bottom: 5%;
+        display: flex;
+        align-items: center;
+    }
+    .text-9 {
+        width: 40%;
+        position: absolute;
+        top: 22%;
+        left: 33%;
+        font-size: 12px;
+    }
+    .magnus-9 {
+        width: 32%;
+        position: absolute;
+        left: 3%;
+        bottom: 6%;
+    }
+    .client-1 {
+        right: 10%;
+        bottom: 10%;
+        width: 14.5%;
+    }
+    .crossBoardImg {
+        width: 38%;
+        right: 10%;
+        bottom: 14%;
+    }
+    .text-2 {
+        width: 34%;
+        top: 7%;
+        left: 26%;
+    }
+    .tokens-card {
+        width: 54%;
+        left: 11%;
+    }
+    .magnus-4 {
+        width: 45%;
+        right: 2%;
+        top: 5%;
+    }
+    .badges-1 {
+        width: 12%;
+        bottom: 8%;
+        left: 10%;
+    }
+    .magnus-5 {
+        width: 38%;
+        position: absolute;
+        left: 24%;
+        bottom: 6%;
+    }
+    .magnus-6 {
+        width: 43%;
+        right: 22%;
+    }
+    .text-3 {
+        bottom: 8%;
+        width: 35%;
+    }
+    .text-4 {
+        top: 12%;
+        left: 7%;
+        width: 35%;
+    }
+    .badges-2 {
+        width: 12%;
+        bottom: 10%;
+        right: 11%;
+    }
+    .value-buddies-container {
+        
+        max-height: 90%;
+    }
+    .magnus-10 {
+        width: 33%;
+        position: absolute;
+        left: 6%;
+        bottom: 5%;
+    }
+    .text-10 {
+        width: 32%;
+        position: absolute;
+        top: 22%;
+        left: 35%;
+    }
+    .text-11 {
+        width: 29%;
+        position: absolute;
+        left: 33%;
+    }
+    .magnus-10-1 {
+        width: 30%;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+    }
+    .client-2 {
+        right: 16%;
+        bottom: 7%;
+        width: 15%;
+    }
+}
